@@ -1,2 +1,2 @@
 #!/bin/bash
-read str && echo "$str" | rev
+echo "Hello, world!" | rev
