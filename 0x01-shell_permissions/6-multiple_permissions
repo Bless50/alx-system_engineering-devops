@@ -1,2 +1,2 @@
 #!/bin/bash
-chow -R ug=x,o+r hello
+chown -R ug=x,o+r hello
