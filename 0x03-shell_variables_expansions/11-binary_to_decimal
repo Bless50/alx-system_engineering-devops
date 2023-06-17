@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(bc <<< "scale=0; 2#$BINARY")"
+echo "$((2#$BINARY))"
