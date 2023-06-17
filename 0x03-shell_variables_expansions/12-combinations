@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "${{a..z,,//(oo)/}} | sort | uniq"
+echo "${{a..z,,}}" | tr "oo" "" | sort | uniq
